@@ -14,6 +14,7 @@
 		C8C0EF012ACCCA58006D375E /* StormViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C0EF002ACCCA58006D375E /* StormViewerTests.swift */; };
 		C8C0EF0B2ACCCA58006D375E /* StormViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C0EF0A2ACCCA58006D375E /* StormViewerUITests.swift */; };
 		C8C0EF0D2ACCCA58006D375E /* StormViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C0EF0C2ACCCA58006D375E /* StormViewerUITestsLaunchTests.swift */; };
+		C8C0EF1A2ACCD63E006D375E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C0EF192ACCD63E006D375E /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		C8C0EF062ACCCA58006D375E /* StormViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StormViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C0EF0A2ACCCA58006D375E /* StormViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormViewerUITests.swift; sourceTree = "<group>"; };
 		C8C0EF0C2ACCCA58006D375E /* StormViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C8C0EF192ACCD63E006D375E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				C8C0EEEE2ACCCA57006D375E /* StormViewerApp.swift */,
 				C8C0EEF02ACCCA57006D375E /* ContentView.swift */,
+				C8C0EF192ACCD63E006D375E /* AppDelegate.swift */,
 				C8C0EEF22ACCCA58006D375E /* Assets.xcassets */,
 				C8C0EEF72ACCCA58006D375E /* StormViewer.entitlements */,
 				C8C0EEF42ACCCA58006D375E /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8C0EF1A2ACCD63E006D375E /* AppDelegate.swift in Sources */,
 				C8C0EEF12ACCCA57006D375E /* ContentView.swift in Sources */,
 				C8C0EEEF2ACCCA57006D375E /* StormViewerApp.swift in Sources */,
 			);
