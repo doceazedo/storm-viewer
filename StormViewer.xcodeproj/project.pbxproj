@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8C0EEEF2ACCCA57006D375E /* StormViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C0EEEE2ACCCA57006D375E /* StormViewerApp.swift */; };
+		C8C0EEF12ACCCA57006D375E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C0EEF02ACCCA57006D375E /* ContentView.swift */; };
+		C8C0EEF32ACCCA58006D375E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C0EEF22ACCCA58006D375E /* Assets.xcassets */; };
+		C8C0EEF62ACCCA58006D375E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C0EEF52ACCCA58006D375E /* Preview Assets.xcassets */; };
+		C8C0EF012ACCCA58006D375E /* StormViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C0EF002ACCCA58006D375E /* StormViewerTests.swift */; };
+		C8C0EF0B2ACCCA58006D375E /* StormViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C0EF0A2ACCCA58006D375E /* StormViewerUITests.swift */; };
+		C8C0EF0D2ACCCA58006D375E /* StormViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C0EF0C2ACCCA58006D375E /* StormViewerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8C0EEFD2ACCCA58006D375E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8C0EEE32ACCCA57006D375E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8C0EEEA2ACCCA57006D375E;
+			remoteInfo = StormViewer;
+		};
+		C8C0EF072ACCCA58006D375E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8C0EEE32ACCCA57006D375E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8C0EEEA2ACCCA57006D375E;
+			remoteInfo = StormViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8C0EEEB2ACCCA57006D375E /* StormViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StormViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C0EEEE2ACCCA57006D375E /* StormViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormViewerApp.swift; sourceTree = "<group>"; };
+		C8C0EEF02ACCCA57006D375E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C8C0EEF22ACCCA58006D375E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8C0EEF52ACCCA58006D375E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8C0EEF72ACCCA58006D375E /* StormViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StormViewer.entitlements; sourceTree = "<group>"; };
+		C8C0EEFC2ACCCA58006D375E /* StormViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StormViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C0EF002ACCCA58006D375E /* StormViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormViewerTests.swift; sourceTree = "<group>"; };
+		C8C0EF062ACCCA58006D375E /* StormViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StormViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C0EF0A2ACCCA58006D375E /* StormViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormViewerUITests.swift; sourceTree = "<group>"; };
+		C8C0EF0C2ACCCA58006D375E /* StormViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8C0EEE82ACCCA57006D375E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C0EEF92ACCCA58006D375E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C0EF032ACCCA58006D375E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8C0EEE22ACCCA57006D375E = {
+			isa = PBXGroup;
+			children = (
+				C8C0EEED2ACCCA57006D375E /* StormViewer */,
+				C8C0EEFF2ACCCA58006D375E /* StormViewerTests */,
+				C8C0EF092ACCCA58006D375E /* StormViewerUITests */,
+				C8C0EEEC2ACCCA57006D375E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8C0EEEC2ACCCA57006D375E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8C0EEEB2ACCCA57006D375E /* StormViewer.app */,
+				C8C0EEFC2ACCCA58006D375E /* StormViewerTests.xctest */,
+				C8C0EF062ACCCA58006D375E /* StormViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8C0EEED2ACCCA57006D375E /* StormViewer */ = {
+			isa = PBXGroup;
+			children = (
+				C8C0EEEE2ACCCA57006D375E /* StormViewerApp.swift */,
+				C8C0EEF02ACCCA57006D375E /* ContentView.swift */,
+				C8C0EEF22ACCCA58006D375E /* Assets.xcassets */,
+				C8C0EEF72ACCCA58006D375E /* StormViewer.entitlements */,
+				C8C0EEF42ACCCA58006D375E /* Preview Content */,
+			);
+			path = StormViewer;
+			sourceTree = "<group>";
+		};
+		C8C0EEF42ACCCA58006D375E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C8C0EEF52ACCCA58006D375E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8C0EEFF2ACCCA58006D375E /* StormViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8C0EF002ACCCA58006D375E /* StormViewerTests.swift */,
+			);
+			path = StormViewerTests;
+			sourceTree = "<group>";
+		};
+		C8C0EF092ACCCA58006D375E /* StormViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C8C0EF0A2ACCCA58006D375E /* StormViewerUITests.swift */,
+				C8C0EF0C2ACCCA58006D375E /* StormViewerUITestsLaunchTests.swift */,
+			);
+			path = StormViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8C0EEEA2ACCCA57006D375E /* StormViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8C0EF102ACCCA58006D375E /* Build configuration list for PBXNativeTarget "StormViewer" */;
+			buildPhases = (
+				C8C0EEE72ACCCA57006D375E /* Sources */,
+				C8C0EEE82ACCCA57006D375E /* Frameworks */,
+				C8C0EEE92ACCCA57006D375E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StormViewer;
+			productName = StormViewer;
+			productReference = C8C0EEEB2ACCCA57006D375E /* StormViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8C0EEFB2ACCCA58006D375E /* StormViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8C0EF132ACCCA58006D375E /* Build configuration list for PBXNativeTarget "StormViewerTests" */;
+			buildPhases = (
+				C8C0EEF82ACCCA58006D375E /* Sources */,
+				C8C0EEF92ACCCA58006D375E /* Frameworks */,
+				C8C0EEFA2ACCCA58006D375E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8C0EEFE2ACCCA58006D375E /* PBXTargetDependency */,
+			);
+			name = StormViewerTests;
+			productName = StormViewerTests;
+			productReference = C8C0EEFC2ACCCA58006D375E /* StormViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8C0EF052ACCCA58006D375E /* StormViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8C0EF162ACCCA58006D375E /* Build configuration list for PBXNativeTarget "StormViewerUITests" */;
+			buildPhases = (
+				C8C0EF022ACCCA58006D375E /* Sources */,
+				C8C0EF032ACCCA58006D375E /* Frameworks */,
+				C8C0EF042ACCCA58006D375E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8C0EF082ACCCA58006D375E /* PBXTargetDependency */,
+			);
+			name = StormViewerUITests;
+			productName = StormViewerUITests;
+			productReference = C8C0EF062ACCCA58006D375E /* StormViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8C0EEE32ACCCA57006D375E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C8C0EEEA2ACCCA57006D375E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					C8C0EEFB2ACCCA58006D375E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = C8C0EEEA2ACCCA57006D375E;
+					};
+					C8C0EF052ACCCA58006D375E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = C8C0EEEA2ACCCA57006D375E;
+					};
+				};
+			};
+			buildConfigurationList = C8C0EEE62ACCCA57006D375E /* Build configuration list for PBXProject "StormViewer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8C0EEE22ACCCA57006D375E;
+			productRefGroup = C8C0EEEC2ACCCA57006D375E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8C0EEEA2ACCCA57006D375E /* StormViewer */,
+				C8C0EEFB2ACCCA58006D375E /* StormViewerTests */,
+				C8C0EF052ACCCA58006D375E /* StormViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8C0EEE92ACCCA57006D375E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C0EEF62ACCCA58006D375E /* Preview Assets.xcassets in Resources */,
+				C8C0EEF32ACCCA58006D375E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C0EEFA2ACCCA58006D375E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C0EF042ACCCA58006D375E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8C0EEE72ACCCA57006D375E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C0EEF12ACCCA57006D375E /* ContentView.swift in Sources */,
+				C8C0EEEF2ACCCA57006D375E /* StormViewerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C0EEF82ACCCA58006D375E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C0EF012ACCCA58006D375E /* StormViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C0EF022ACCCA58006D375E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C0EF0D2ACCCA58006D375E /* StormViewerUITestsLaunchTests.swift in Sources */,
+				C8C0EF0B2ACCCA58006D375E /* StormViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8C0EEFE2ACCCA58006D375E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8C0EEEA2ACCCA57006D375E /* StormViewer */;
+			targetProxy = C8C0EEFD2ACCCA58006D375E /* PBXContainerItemProxy */;
+		};
+		C8C0EF082ACCCA58006D375E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8C0EEEA2ACCCA57006D375E /* StormViewer */;
+			targetProxy = C8C0EF072ACCCA58006D375E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C8C0EF0E2ACCCA58006D375E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8C0EF0F2ACCCA58006D375E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C8C0EF112ACCCA58006D375E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StormViewer/StormViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StormViewer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doceazedo.StormViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C8C0EF122ACCCA58006D375E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StormViewer/StormViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StormViewer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doceazedo.StormViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C8C0EF142ACCCA58006D375E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doceazedo.StormViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StormViewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StormViewer";
+			};
+			name = Debug;
+		};
+		C8C0EF152ACCCA58006D375E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doceazedo.StormViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StormViewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StormViewer";
+			};
+			name = Release;
+		};
+		C8C0EF172ACCCA58006D375E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doceazedo.StormViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = StormViewer;
+			};
+			name = Debug;
+		};
+		C8C0EF182ACCCA58006D375E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doceazedo.StormViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = StormViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8C0EEE62ACCCA57006D375E /* Build configuration list for PBXProject "StormViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8C0EF0E2ACCCA58006D375E /* Debug */,
+				C8C0EF0F2ACCCA58006D375E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8C0EF102ACCCA58006D375E /* Build configuration list for PBXNativeTarget "StormViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8C0EF112ACCCA58006D375E /* Debug */,
+				C8C0EF122ACCCA58006D375E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8C0EF132ACCCA58006D375E /* Build configuration list for PBXNativeTarget "StormViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8C0EF142ACCCA58006D375E /* Debug */,
+				C8C0EF152ACCCA58006D375E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8C0EF162ACCCA58006D375E /* Build configuration list for PBXNativeTarget "StormViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8C0EF172ACCCA58006D375E /* Debug */,
+				C8C0EF182ACCCA58006D375E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8C0EEE32ACCCA57006D375E /* Project object */;
+}
