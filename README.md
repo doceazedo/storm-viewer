@@ -1,4 +1,4 @@
-# Storm Viewer
+# Storm Viewer 🌩️
 
 ![](screenshot.png)
 
